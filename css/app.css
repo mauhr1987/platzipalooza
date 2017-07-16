@@ -10,8 +10,10 @@ h1, h2, h3, h4, h5, h6 {
   background: #1c3643;
 }
 
-.logo-container .callout {
+#logo-container .callout {
   margin-bottom: 0;
+  background: #EE3F54;
+  color: #fff;
 }
 
 .tabs-title {
