@@ -34,6 +34,16 @@ h1, h2, h3, h4, h5, h6 {
 	background: #48a19e;
 }
 
+#tickets-action .callout{
+	background: #5e7eb7;
+	color: #fff;
+}
+
+#tickets-action .callout button{
+	border: 1px solid #fff;
+	color: #fff;
+}
+
 .tabs-title {
   display: inline-block;
   float: none;
