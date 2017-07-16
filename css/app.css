@@ -16,6 +16,24 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+#menu-container{
+	background: #48a19e;
+}
+
+#menu-container li a{
+	color: #fff;
+	font-family: 'Bree Serif', serif;
+}
+
+#menu-container li a:hover{
+	color: #f6e15f;
+}
+
+#submenu-container{
+	border: 0;
+	background: #48a19e;
+}
+
 .tabs-title {
   display: inline-block;
   float: none;
