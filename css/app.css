@@ -37,22 +37,38 @@ h1, h2, h3, h4, h5, h6 {
 #tickets-action .callout{
 	background: #5e7eb7;
 	color: #fff;
+	margin-bottom: 0;
 }
 
 #tickets-action .callout button{
 	border: 1px solid #fff;
 	color: #fff;
 }
-
+#lineup-container{
+	padding: 1em 0;
+}
+#lineup-container,
+#lineup-tabs,
+#lineup-container .tabs-panel,
+#lineup-tabs .tabs-title.is-active a{
+	background: #9676af;
+	border: 0;	
+	text-transform: uppercase;
+	font-family: 'Bree Serif', serif;
+}
+.tabs-content{
+	border: 0;
+	color: #fff;
+}
+#lineup-tabs a{
+	color: #a7fffb;
+}
+#lineup-tabs a:hover,
+#lineup-tabs .tabs-title.is-active a{
+	color: #fff;
+	background: none;
+}
 .tabs-title {
   display: inline-block;
   float: none;
-}
-
-.lineup-container .orbit-container {
-  margin-bottom: 1em;
-}
-
-.lineup-container .column:nth-child(odd) figcaption {
-  text-align: right;
 }
