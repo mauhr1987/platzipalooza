@@ -80,3 +80,26 @@ h1, h2, h3, h4, h5, h6 {
 #lineup-container .column:nth-child(odd) figcaption{
 	text-align: right;
 }
+
+#tickets-container{
+	padding: 1em 0;
+	background: #f6e15f;
+	color: 161742;
+}
+.pricing-table{
+	margin-left: 0;
+	border: 1px solid #161742;
+ 	font-family: 'Ravi Prakash', cursive;
+}
+.pricing-table li,
+.pricing-table li.description{
+	font-size: 20px;
+}
+.pricing-table li.title,
+.pricing-table li.price{
+	font-size: 30px;
+}
+
+.pricing-table .button{
+	font-family: 'Bree Serif', serif;
+}
