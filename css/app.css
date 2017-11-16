@@ -12,94 +12,52 @@ h1, h2, h3, h4, h5, h6 {
 
 #logo-container .callout {
   margin-bottom: 0;
-  background: #EE3F54;
-  color: #fff;
 }
 
-#menu-container{
-	background: #48a19e;
-}
-
-#menu-container li a{
-	color: #fff;
-	font-family: 'Bree Serif', serif;
-}
-
-#menu-container li a:hover{
-	color: #f6e15f;
-}
-
-#submenu-container{
-	border: 0;
-	background: #48a19e;
-}
-
-#tickets-action .callout{
-	background: #5e7eb7;
-	color: #fff;
-	margin-bottom: 0;
-}
-
-#tickets-action .callout button{
-	border: 1px solid #fff;
-	color: #fff;
-}
-#lineup-container{
-	padding: 1em 0;
-}
-#lineup-container,
-#lineup-tabs,
-#lineup-container .tabs-panel,
-#lineup-tabs .tabs-title.is-active a{
-	background: #9676af;
-	border: 0;	
-	text-transform: uppercase;
-	font-family: 'Bree Serif', serif;
-}
-.tabs-content{
-	border: 0;
-	color: #fff;
-}
-#lineup-tabs a{
-	color: #a7fffb;
-}
-#lineup-tabs a:hover,
-#lineup-tabs .tabs-title.is-active a{
-	color: #fff;
-	background: none;
-}
 .tabs-title {
   display: inline-block;
   float: none;
 }
 
-.orbit-container{
-	margin-bottom: 1em;
-    height: auto !important;
-}
-#lineup-container .column:nth-child(odd) figcaption{
-	text-align: right;
+#lineup-container .orbit-container {
+  margin-bottom: 1em;
 }
 
-#tickets-container{
-	padding: 1em 0;
-	background: #f6e15f;
-	color: 161742;
-}
-.pricing-table{
-	margin-left: 0;
-	border: 1px solid #161742;
- 	font-family: 'Ravi Prakash', cursive;
-}
-.pricing-table li,
-.pricing-table li.description{
-	font-size: 20px;
-}
-.pricing-table li.title,
-.pricing-table li.price{
-	font-size: 30px;
+#lineup-container .column:nth-child(odd) figcaption {
+  text-align: right;
 }
 
-.pricing-table .button{
-	font-family: 'Bree Serif', serif;
+/* Pricing table */
+
+.pricing-table {
+  border: solid 1px #DDDDDD; }
+  .pricing-table li {
+    border-bottom: dotted 1px #DDDDDD;
+    font-size: 0.75rem;
+    padding: 0.875rem 1.125rem; }
+    .pricing-table li:last-child {
+      border-bottom: 0; }
+  .pricing-table .title {
+    background-color: #333333;
+    color: #EEEEEE;
+    font-size: 0.875rem;
+    border-bottom: 0; }
+  .pricing-table .price {
+    background-color: #F6F6F6;
+    color: #333333;
+    font-size: 1.75rem;
+    border-bottom: 0; }
+  .pricing-table .description {
+    color: #777777;
+    font-size: 0.625rem; }
+  .pricing-table .button {
+    margin: 0; }
+
+.info-map iframe {
+  width: 100%;
+}
+
+.data-sticky {
+  width: 100%;
+  z-index: 100;
 }
